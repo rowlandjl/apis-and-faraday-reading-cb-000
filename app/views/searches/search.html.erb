@@ -5,7 +5,7 @@
   <%= submit_tag "Search!" %>
 <% end %>
 <div>
-  <%= elsif @venues %>
+  <% elsif @venues %>
     <ul>
       <% @venues.each do |venue| %>
         <li>
